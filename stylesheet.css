@@ -8,6 +8,10 @@ html {
 
 }
 
+h2{
+    text-align: center;
+}
+
 #desc{
     font-family:"Roboto Mono", monospace;
     font-weight: 200;
@@ -26,4 +30,9 @@ a{
 a:hover{
     color:green; 
     text-decoration: underline;
+}
+
+img{
+    display: block;
+    margin: auto;
 }
