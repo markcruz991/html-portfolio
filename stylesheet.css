@@ -1,0 +1,29 @@
+html {
+    background:#F2F2F2;
+}
+
+
+#title{
+    font-family:"Roboto Mono", monospace;
+
+}
+
+#desc{
+    font-family:"Roboto Mono", monospace;
+    font-weight: 200;
+}
+
+.heading{
+    font-family:"Roboto Mono", monospace;
+    font-weight: 100;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+a:hover{
+    color:green; 
+    text-decoration: underline;
+}
