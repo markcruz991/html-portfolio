@@ -3,11 +3,6 @@ html {
 }
 
 
-.header{
-    font-family:"Roboto Mono", monospace;
-    text-align: center;
-}
-
 #desc{
     font-family:"Roboto Mono", monospace;
     font-weight: 200;
@@ -36,4 +31,9 @@ img{
 
 footer{
     text-align:center;
+}
+
+.header{
+    font-family:"Roboto Mono", monospace;
+    text-align: center;
 }
