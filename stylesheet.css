@@ -3,13 +3,8 @@ html {
 }
 
 
-#title{
+.header{
     font-family:"Roboto Mono", monospace;
-    text-align: center;
-
-}
-
-h2{
     text-align: center;
 }
 
@@ -18,9 +13,10 @@ h2{
     font-weight: 200;
 }
 
-.heading{
+.header2{
     font-family:"Roboto Mono", monospace;
     font-weight: 100;
+    text-align: center;
 }
 
 a{
