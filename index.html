@@ -1,37 +1,157 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title> Mark Portfolio</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mark Cruz | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header class="site-header">
+    <div class="container header-content">
+      <div class="logo">
+        <a href="index.html">Mark Cruz</a>
+      </div>
+      <nav class="main-nav">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#resume">Resume</a>
+        <a href="contact.html" class="btn-secondary">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-        <link rel="stylesheet" href="./stylesheet.css"/>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
-
-    </head>
-
-    
-    <body>
-        <div class="header">
-        <h1 id="title">Mark C. Portfolio</h1>
-        <h2 id="desc"> Future Web Developer</h2>
-        <a href="https://www.linkedin.com/in/mark-cruz-ab2897178/">LinkedIn</a>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-content">
+      <div>
+        <p class="hero-kicker">Professional Portfolio</p>
+        <h1>Welcome to my page!</h1>
+        <p class="hero-subtitle">
+          Network Operations/IT Support for Comtech Telecommunication
+        <div class="hero-actions">
+          <!-- TODO: Replace href with your actual resume link or PDF path -->
+          <a href="Resume 11_19.docx.pdf" class="btn-primary" target="_blank" rel="noopener">
+            View Resume
+          </a>
+          <a href="contact.html" class="btn-ghost">Get in touch</a>
         </div>
-       
-        <hr />
-        <div class="header2">
-       <h2 > <a href="./public/movie-ranking.html"> Movie Ranking Project </a></h2>
-       <img src="./assets/images/movie-project.PNG" alt="movie ranking project preview" height="200"/>
-       <h2 > <a href="./public/resume.html">Mark's Resume</a></h2>
-       <img src="./assets/images/resume-portfiolio.PNG" alt="project preview" height="200"/>
-       </div>
-       <hr />
-        
-        <footer>
-        <a href="./public/about.html"> About Me</a>
-        <a href="./public/contact.html"> Contact Me</a>
-        </footer>
+      </div>
+    </div>
+  </section>
 
-    </body>
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container section-content">
+      <h2>About</h2>
+      <p>
+       I currently support network operations at Comtech’s NSOC, backed by a strong foundation in software engineering. I’m driven by a passion for exploring all facets of IT, designing and maintaining reliable networks, and continuously advancing my skills through diverse certifications.        </p>
+
+      </p>
+      <p>
+        I bring hands-on experience from my time at Granite Telecommunications and in NOC/NSOC environments. My technical background includes working with Dedicated Internet Access (DIA), broadband services, and mobility networks. I am proficient with Cradlepoint routers, Juniper devices, and Cisco switches, with experience in configuration, monitoring, and troubleshooting across multi-site deployments.
+      </p>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="section section-alt">
+    <div class="container section-content">
+      <h2>Experience</h2>
+
+      <div class="card-list">
+        <article class="card">
+          <h3>Comtech – NSOC</h3>
+          <p class="meta">Stoughton, MA </p>
+          <p class="meta">2025 – Present</p>
+          <ul>
+            <li>Support a multi-market operational environment for state 911 departments.</li>
+            <li>Manage a daily call queue of 25+ cases and 20+ tickets, ensuring timely and accurate issue resolution. </li>
+            <li>Troubleshooting PSAP (Public Safety Answering Point) equipment and coordinating with field technicians 
+to resolve network-related problems efficiently. </li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Network Operations Technician 1 – Granite Telecommunications</h3>
+          <p class="meta">Quincy • MA</p>
+          <p class="meta">2023 – 2025</p>
+          <ul>
+            <li>Assisting fortune 500 companies with troubleshooting their networking systems which includes industry 
+standard equipment (Fortinets, Cisco, Palo Alto, Junipers) and carrier equipment (Broadband cable, Fiber, 
+DSL, T1/PRI, DIA, Mobility) </li>
+            <li>Independently handle a queue of tickets, promptly responding to incidents, requests to ensure we reach the 
+service level agreements. </li>
+            <li>Professionally handling customer requests including technical and non-technical inquiries to any NOC 
+related services. </li>
+            <li> Part of a dedicated team to support the networking systems of Granite’s top client (TJX). </li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+
+
+  <!-- Skills Section -->
+  <section id="skills" class="section section-alt">
+    <div class="container section-content">
+      <h2>Skills</h2>
+
+      <div class="skills-grid">
+        <div>
+          <h3>Technical</h3>
+          <ul class="tag-list">
+            <li>Languages: C, Java, Python</li>
+            <li>Database:  Beginner level MySQL, SQL</li>
+            <li>Mobile Development: Android Stu./Swift 
+4</li>
+            <li>Coursework: Data Structures (Java), Mobile, Software Engineering</li>
+            <li>Cisco Firewalls/Routers 
+Carrier cable and DSL modems and carrier routers </li>
+            <li>Mobility products: SIM cards, cradlepoints, carrier hotspot devices. 
+            </li>
+            <li>RMM’s: ConnectWise, Cornerstone, Outlook 
+            </li>
+            <li> Security clearance to work EIS tickets (Government contract vendor related) 
+          </li>
+          </ul>
+        </div>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume" class="section">
+    <div class="container section-content">
+      <h2>Resume</h2>
+      <p>
+        You can download or view my full resume using the link below.
+      </p>
+      <!-- TODO: Replace href with your actual resume link or PDF path -->
+      <a href="Resume 11_19.docx.pdf" class="btn-primary" target="_blank" rel="noopener">
+        Download Resume (PDF)
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>&copy; <span id="year"></span> Evelyn Thesia. All rights reserved.</p>
+      <p>
+        <a href="mailto:your.email@example.com">your.email@example.com</a>
+        • <a href="contact.html">Contact</a>
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    // Set current year in footer
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
 </html>
