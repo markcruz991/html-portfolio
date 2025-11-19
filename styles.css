@@ -374,3 +374,42 @@ body {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Optional: keep text container named for clarity */
+.hero-text {
+  max-width: 40rem;
+}
+
+.hero-photo {
+  max-width: 220px;
+  align-self: center;
+}
+
+.hero-photo img {
+  width: 100%;
+  height: auto;
+  border-radius: 999px; /* circular photo */
+  object-fit: cover;
+  box-shadow: var(--shadow-soft);
+  border: 3px solid #ffffff;
+}
+
+/* On larger screens, show text and photo side by side */
+@media (min-width: 720px) {
+  .hero-content {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .hero-photo {
+    max-width: 260px;
+    align-self: flex-start;
+  }
+}
